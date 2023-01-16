@@ -1,0 +1,130 @@
+/* .App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+} */
+
+// @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap')
+
+$black: #000;
+$neon: hsl(150, 100%, 66%);;
+
+body{
+  background-color: hsl(218, 23%, 16%);
+  font-family: 'Manrope', sans-serif;
+  color: hsl(193, 38%, 86%);
+}
+
+@media (width <= 400px) {
+  .advice{
+
+    &__container{
+      // color: red;
+      padding: 30px 10px!important;
+    }
+  }
+  
+}
+
+.advice{
+  // height: 80vh;
+  width: calc(100vw - 40px);
+  margin: 0 20px;
+  position: relative;
+
+  &__container{
+    border-radius: 15px;
+    background-color: hsl(217, 19%, 24%);
+    min-width: 250px;
+    padding: 30px 40px;
+    max-width: 400px;
+    margin: 0 auto;
+    margin-top: 25vh;
+  }
+
+  &__no{
+    text-align: center;
+    letter-spacing: 3px;
+    font-size: 12px;
+    font-weight: 400;
+    color: $neon;
+  }
+
+  &__text{
+    text-align: center;
+    font-weight: 800;
+    font-size: 25px;
+  }
+
+  &__img{
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 25px;
+  }
+
+  &__absolute{
+    background-color: $neon;
+    width: max-content;
+    padding: 10px;
+    border-radius: 50%;
+    height: min-content;
+    position: absolute;
+    bottom: -12%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    img{
+      display: block;
+    }
+  }
+
+}
+
+@media (min-width:600px) {
+
+  .advice{
+
+    &__container{
+      // margin-top: 30%;
+      max-width: 450px;
+    }
+
+    &__absolute{
+      bottom: -13%;
+    }
+  }
+  
+}
