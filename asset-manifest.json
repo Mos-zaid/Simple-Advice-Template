@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/simple-advice-template/static/css/main.a4384e65.css",
+    "main.js": "/simple-advice-template/static/js/main.ca1ba6e3.js",
+    "static/js/787.a6887995.chunk.js": "/simple-advice-template/static/js/787.a6887995.chunk.js",
+    "index.html": "/simple-advice-template/index.html",
+    "main.a4384e65.css.map": "/simple-advice-template/static/css/main.a4384e65.css.map",
+    "main.ca1ba6e3.js.map": "/simple-advice-template/static/js/main.ca1ba6e3.js.map",
+    "787.a6887995.chunk.js.map": "/simple-advice-template/static/js/787.a6887995.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a4384e65.css",
+    "static/js/main.ca1ba6e3.js"
+  ]
+}
